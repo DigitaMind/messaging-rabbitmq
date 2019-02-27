@@ -1,0 +1,4 @@
+Setting Up RabbitMQ:
+download and install errlang/otp
+download and install rabbitmq server
+bootstrap project with spring boot initiazer
