@@ -8,11 +8,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Runner implements CommandLineRunner {
 
-    private final Consumer consumer;
     private final Producer producer;
 
-    public Runner(Consumer consumer, Producer producer) {
-        this.consumer = consumer;
+    public Runner(Producer producer) {
         this.producer = producer;
     }
 
